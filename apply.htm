@@ -1,0 +1,14 @@
+<script>
+const person = {
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+}
+const person1 = {
+  firstName: "TOPS",
+  lastName: "Technologies"
+}
+
+let f=person.fullName.apply(person1);
+document.write(f);
+</script>

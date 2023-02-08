@@ -1,0 +1,23 @@
+<script>
+class father
+{
+	constructor(a,b)
+	{
+		//a=this.a;
+		console.log("Base Class constructor");
+	}
+	add()
+	{
+		console.log("Add method");
+	}
+}
+class son extends father
+{
+	constructor()
+	{
+		super();
+		console.log("Child Class constructor");
+	}
+}
+var o=new son();
+</script>

@@ -1,0 +1,25 @@
+<html>
+<head>
+	<script>
+	const person = {
+  firstName:"Chirag",
+  lastName: "Mehta",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+
+const member = {
+  firstName:"TOPS",
+  lastName: "Technologies"
+}
+
+let fullName = person.fullName.bind(member);
+console.log(fullName());
+	</script>
+</head>
+<body>
+
+</body>
+</HtMl>
+    

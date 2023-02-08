@@ -1,0 +1,93 @@
+<html>
+<head>
+	<script>
+	n=10;
+	
+	//UDF  Built in 
+	// function without arg without return value
+	// function with arg without return value
+	// function without arg with return value
+	// function with arg with return value
+	
+	/*function add()
+	{
+		let a=10;
+		let b=20;
+		let c=a+b;
+		console.log(c);
+	}
+	add();*/
+	
+	/*function add(a,b)
+	{
+		
+		let c=a+b;
+		console.log(c);
+	}
+	add(5,7);*/
+	/*function add()
+	{
+		let a=10;
+		let b = 0;
+		let c=a+b;
+		return c;
+	}
+	
+	console.log(add());*/
+	
+	function add(a=0,b=0)
+	{
+		
+		let c=a+b;
+		return c;
+	}
+	
+	console.log(add(10,80));
+	/*function showme()
+	{
+		//var n=document.getElementById("txtn").value;
+		var n=document.getElementsByName("txtn1")[0].value;
+		document.write("<body bgcolor="+n+">");
+	}*/
+		/*var a=10;b=20;
+		if(a<b)
+			document.write("A is Smaller");
+		else if(a<c)
+			document.write("B is Smaller");*/
+		/*var n=10;
+		var s=n;
+		for(var i=1;i<=n;i++)
+		{
+			for(var k=i;k<=s-1;k++)
+			{
+				document.write("&nbsp;");
+			}
+			for(var j=1;j<=i;j++)
+			{
+				if(i==1||j==1||j==n||j==i||i==n)
+				document.write("*");
+				else
+				document.write("&nbsp;&nbsp;");
+			}
+			document.write("<br>");
+		}	
+		/*while(i<=n)
+		{
+			document.write(i+"<br>");
+			i++;
+		}*/
+		/*do{
+			document.write(i+"<br>");
+			i++;
+		}while(i<=n);*/
+	</script>
+</head>
+<body>
+	<form method="post" onsubmit="showme();">
+		Enter Your Name : 
+		<input type="color" id="txtn"name="txtn1" required>
+		<input  type="submit" value="Click Me">
+	</form>
+</body>
+</HtMl>
+    
